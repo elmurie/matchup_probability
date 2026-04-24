@@ -26,8 +26,8 @@ This project estimates the probability of Pistoia facing either **Ruvo di Puglia
 
 Pistoia’s opponent does not depend solely on their own result:
 
-- If Pistoia win → Ruvo’s result becomes decisive  
-- If Pistoia lose → Roseto’s result becomes decisive  
+- If Pistoia wins → Ruvo’s result becomes decisive  
+- If Pistoia loses → Roseto’s result becomes decisive  
 
 ---
 
@@ -76,4 +76,4 @@ Python, Pandas, NumPy, Matplotlib
 ## 📬 Contact
 
 Feel free to connect for collaborations or opportunities in data analytics and sports analytics.
-@mailto:elmurie@gmail.com
+elmurie@gmail.com

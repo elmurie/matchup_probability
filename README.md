@@ -50,5 +50,3 @@ The model combines basketball domain knowledge with statistical techniques:
 6. Simulate outcomes  
 
 ---
-
-## 📁 Project Structure

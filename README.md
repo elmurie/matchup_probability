@@ -1,17 +1,30 @@
 # Estra Pistoia Playout Opponent Probability Model
 
-With one game left in the Serie A2 regular season, Estra Pistoia’s playout opponent is still undecided.
-
-This project estimates the probability of Pistoia facing either **Ruvo di Puglia** or **Cento**, using a data-driven approach based on team box score data and simulation.
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-lightgrey)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightgrey)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-lightgrey)
+![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-blue?logo=kaggle)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
-## 📊 Key Results
+## 📊 Project Overview
+
+With one game left in the Italian Serie A2 regular season, Estra Pistoia’s playout opponent is still undecided.
+
+This project estimates the probability of Pistoia facing either **Ruvo di Puglia** or **Cento**, using a reproducible, data-driven approach based on team box score data and probabilistic simulation.
+
+---
+
+## 📈 Key Results
 
 - **Cento: ~60% probability**
 - **Ruvo: ~40% probability**
 
-The key insight is that Pistoia’s opponent does not depend solely on their own result:
+### Key Insight
+
+Pistoia’s opponent does not depend solely on their own result:
 
 - If Pistoia win → Ruvo’s result becomes decisive  
 - If Pistoia lose → Roseto’s result becomes decisive  
@@ -20,35 +33,47 @@ The key insight is that Pistoia’s opponent does not depend solely on their own
 
 ## 🧠 Methodology
 
-The model combines basketball domain knowledge with statistical techniques:
-
-- Team strength estimated using:
-  - Offensive Rating
-  - Defensive Rating
-  - Recent form (last N games)
-
-- Bergamo games are excluded, as they were annulled after the team's withdrawal
-
-- The three decisive games are modeled:
-  - Cento vs Pistoia  
-  - Brindisi vs Ruvo  
-  - Avellino vs Roseto  
-
-- Win probabilities are derived from expected scoring margins
-
-- A **Monte Carlo simulation (100,000 runs)** is used to estimate final outcomes
+- Offensive & Defensive Rating
+- Possession-based metrics
+- Recent form weighting
+- Monte Carlo Simulation (100,000 runs)
 
 ---
 
-## ⚙️ How it works
+## 🚀 Run the Project
 
-1. Load team box score data from CSV  
-2. Convert game data into team-level metrics  
-3. Compute possession-based ratings  
-4. Estimate win probabilities for key games  
-5. Apply official scenario rules  
-6. Simulate outcomes  
+```bash
+git clone https://github.com/your-username/pistoia-playout-analysis.git
+cd pistoia-playout-analysis
+pip install pandas numpy matplotlib
+jupyter notebook
+```
 
 ---
 
-## 📁 Project Structure
+## 🌐 Interactive Version
+
+https://www.kaggle.com/code/simonemorieri/estra-pistoia-playout-2026-matchup-probability
+
+---
+
+## 💻 Tech Stack
+
+Python, Pandas, NumPy, Matplotlib
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Data Analysis  
+- Feature Engineering  
+- Statistical Modeling  
+- Monte Carlo Simulation  
+- Sports Analytics  
+
+---
+
+## 📬 Contact
+
+Feel free to connect for collaborations or opportunities in data analytics and sports analytics.
+@mailto:elmurie@gmail.com
